@@ -32,7 +32,7 @@ Bu proje henüz tamamlanmamıştır ve geliştirmeye devam edilmektedir. Eksik v
 Python kodu `main.py` adlı dosyada bulunmaktadır.
 
 ```python
-pip install serial
+pip install pyserial
 pip install pyautogui
 ```
 
