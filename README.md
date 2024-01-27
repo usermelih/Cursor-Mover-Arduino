@@ -5,9 +5,8 @@ Bu proje, bir Arduino kartı ve bir ultrasonik sensör kullanarak alınan seri p
 ## Gereksinimler
 
 - Arduino kartı (Örneğin: Arduino Uno)
-- Bir ultrasonik sensör
-- Bilgisayar (Python yüklü olmalıdır)
-- USB kablosu ile Arduino'nun bilgisayara bağlanması
+- 1 yada (isteğe bağlı) 2 ultrasonik sensör
+- Python 3.x
 
 ## Durum
 
@@ -32,8 +31,8 @@ Bu proje henüz tamamlanmamıştır ve geliştirmeye devam edilmektedir. Eksik v
 Python kodu `main.py` adlı dosyada bulunmaktadır.
 
 ```python
-import serial
-import pyautogui
+pip install serial
+pip install pyautogui
 ```
 
 
@@ -45,4 +44,8 @@ import pyautogui
 ## Proje Amacı
 
 Bu proje, ultrasonik sensörler ve Arduino kullanılarak yapılmış bir prototiptir. Amacı, fiziksel bir cisme yaklaşma veya uzaklaşma durumlarına bağlı olarak bilgisayar fare hareketini kontrol etmektir. Projenin geliştirilmesi ve iyileştirilmesi için geri bildirimler ve katkılar her zaman hoş karşılanmaktadır.
+
+## Uyarı
+
+Proje unix ortamı üzerinde geliştirilmiştir, Windows ile uyumluluk göstermeyebilir, python kodunun içerisindeki pyautogui komutlarında değişiklik yapmanız gerekebilir.
 
