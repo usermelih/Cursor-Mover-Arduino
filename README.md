@@ -2,7 +2,7 @@
 
 Bu proje, bir Arduino kartı ve bir ultrasonik sensör kullanarak alınan seri port verilerine göre fareyi hareket ettiren bir Python scriptini içerir.
 
-##Version v2.3
+## Version v2.3
 
 ## Gereksinimler
 
