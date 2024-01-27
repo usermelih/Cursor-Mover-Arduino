@@ -34,7 +34,7 @@ Python kodu `main.py` adlı dosyada bulunmaktadır.
 ```python
 import serial
 import pyautogui
-
+```
 
 
 ## Kullanım
