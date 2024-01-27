@@ -1,4 +1,3 @@
-```markdown
 # Seri Port Verisi ile Fare Hareketi Projesi
 
 Bu proje, bir Arduino kartı ve bir ultrasonik sensör kullanarak alınan seri port verilerine göre fareyi hareket ettiren bir Python scriptini içerir.
@@ -64,7 +63,7 @@ while True:
         break
 
 ser.close()
-```
+
 
 ## Kullanım
 
